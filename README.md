@@ -103,4 +103,3 @@ java -jar AlitasCifradas.jar interfazGrafica
 
 > **Nota importante:** Siempre escribe el mensaje entre comillas (`" "`) si este contiene espacios, para que la terminal lo reconozca como un solo argumento.
 
-¿Te gustaría que redacte también una sección de "Solución de problemas comunes" por si algún comando arroja error?
