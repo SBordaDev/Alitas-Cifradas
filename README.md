@@ -84,7 +84,7 @@ java -jar AlitasCifradas.jar fuerzaCesar "MensajeCifrado"
 java -jar AlitasCifradas.jar fuerzaVigenere "MensajeCifrado"
 
 ```
-
+**EL DICCIONARIO DEBERA ESTAR EN UNA CARPETA LLAMADA DATA DENTRO DEL MISMO DIRECTORIO**
 
 
 #### 4. Interfaz Gráfica (GUI)
