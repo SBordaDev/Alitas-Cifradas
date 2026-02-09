@@ -19,11 +19,11 @@ public class Vigenere {
         return procesarMensaje(mensajeCifrado, clave, false);
     }
 
-    public List<String> descifrarFuerzaBruta(String mensajeCifrado, Path archivo){
+    public List<String> descifrarFuerzaBruta(String mensajeCifrado, Path archivo, int cantidadPalabras){
         List<String> respuesta = new ArrayList<>();
 
         try (Stream<String> llaves = Files.lines(archivo, StandardCharsets.ISO_8859_1)) {
-            Iterator<String> it = llaves.limit(100).iterator();
+            Iterator<String> it = llaves.limit(cantidadPalabras).iterator();
             while (it.hasNext()){
                 String palabra = it.next();
                 if(!palabra.trim().isEmpty()){

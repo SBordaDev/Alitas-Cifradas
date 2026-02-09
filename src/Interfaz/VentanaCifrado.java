@@ -174,7 +174,7 @@ public class VentanaCifrado extends JFrame {
                         }
                     }
 
-                    resultados = vigenere.descifrarFuerzaBruta(msj, rutaDiccionario);
+                    resultados = vigenere.descifrarFuerzaBruta(msj, rutaDiccionario,100);
                 }
 
                 // Actualizar la UI con los resultados

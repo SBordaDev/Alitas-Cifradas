@@ -67,7 +67,7 @@ public class Main {
 
             case "fuerzavigenere":
                 System.out.println("=== Probando las 100 primeras claves del rockyou ===");
-                List<String> resultados2 = maquinaVigenere.descifrarFuerzaBruta(mensaje, Path.of("Data/rockyou.txt"));
+                List<String> resultados2 = maquinaVigenere.descifrarFuerzaBruta(mensaje, Path.of("Data/rockyou.txt"), 100);
                 resultados2.forEach(System.out::println);
                 break;
 
